@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div class="cart">
+    <h1>Shopping Cart</h1>
+
+    <!-- Cart Item 1 -->
+    <div class="cart-item">
+      <div class="item-info">
+        <span class="item-name">Product 1</span>
+        <span class="price">$20.00</span>
+      </div>
+      <div class="quantity-controls">
+        <button class="minus">-</button>
+        <span class="quantity">1</span>
+        <button class="plus">+</button>
+      </div>
+      <button class="delete">Delete</button>
+      <button class="heart">&#x2661;</button> <!-- Heart icon (♡) -->
+    </div>
+
+    <!-- Cart Item 2 -->
+    <div class="cart-item">
+      <div class="item-info">
+        <span class="item-name">Product 2</span>
+        <span class="price">$15.00</span>
+      </div>
+      <div class="quantity-controls">
+        <button class="minus">-</button>
+        <span class="quantity">1</span>
+        <button class="plus">+</button>
+      </div>
+      <button class="delete">Delete</button>
+      <button class="heart">&#x2661;</button>
+    </div>
+
+    <!-- Cart Item 3 -->
+    <div class="cart-item">
+      <div class="item-info">
+        <span class="item-name">Product 3</span>
+        <span class="price">$10.00</span>
+      </div>
+      <div class="quantity-controls">
+        <button class="minus">-</button>
+        <span class="quantity">1</span>
+        <button class="plus">+</button>
+      </div>
+      <button class="delete">Delete</button>
+      <button class="heart">&#x2661;</button>
+    </div>
+
+    <!-- Total Price Section -->
+    <div class="total">
+      <h2>Total Price: <span id="total-price">$0.00</span></h2>
+    </div>
+  </div>
+
+  <script src="main.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
